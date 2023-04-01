@@ -1,0 +1,21 @@
+    h1{
+        text-align: center;
+        font-style: italic;
+        font-family: helvetica;
+        font-size: clamp(4em, 4em + 4vw, 4.5em);
+        color:#615317;
+    }
+
+    p{
+        text-align: justify;
+        margin-top: 4%;
+        margin-left: 15%;
+        font-family: Verdana;
+        color: #615934;
+        font-style: bold;
+    }
+
+    .image{
+        text-align: center;
+        
+    }
