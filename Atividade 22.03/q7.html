@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+
+<html lang="pt-br">
+    <html charset="utf-8">
+        <head>
+            <title>Formulário de Cadastro para Desocupados</title>
+        </head>
+        <body>
+            <font face="Verdana" color="black" size="5">
+                <h1>FORMULÁRIO DE CADASTRO PARA PESSOAS DESOCUPADAS</h1>
+                <form action="processa.php" method="post">
+                <h3>Nome</h3>
+                <input type="text" name="nome" placeholder="Nome Completo">
+                <h3>Sexo</h3>
+                <input type="radio" name="sexo" value="F">Feminino
+                <input type="radio" name="sexo" value="M">Masculino
+                <h3>Estado Civil</h3>
+                <input type="radio" name="estcivil" value="divorc">Divorciado
+                <input type="radio" name="estcivil" value="casado">Casado
+                <input type="radio" name="estcivil" value="solt">Solteiro
+                <h3>Endereço</h3>
+                <input type="text" name="rua" placeholder="Logradouro">
+                <input type="number" name="num" placeholder="Número">
+                <input type="text" name="comp" placeholder="Complemento">
+                <input type="number" name="cep" placeholder="CEP">
+                <input type="text" name="cidade" placeholder="Cidade">
+                <input type="text" name="uf" placeholder="UF">
+
+                <input type="submit" value="Enviar" name="submit">
+
+            </font>
+
+            </form>
+
+            
+        </body>
+    </html>
+</html>
